@@ -54,8 +54,8 @@ public class LoopRaceGame : Game
                 throw new Exception("Level " + level.name + " not contains garages");
             }
         }
-        
-        _currentLevelIndex = PlayerPrefs.GetInt("Level");
+
+        _currentLevelIndex = 1;
 
         var levelTransform = GameObject.FindGameObjectWithTag(LEVELTRANSFORM).transform;
         _levelSwitcher = new LevelSwitcher(levelDataList, levelTransform, _coroutineRunner, 1f);
@@ -169,7 +169,9 @@ public class LoopRaceGame : Game
     private void StopGame()
     {
         var cars = GameObject.FindGameObjectsWithTag("Car");
+        
         _mainUIView.StopTimer();
+        
         if (_coroutine != null)
             _coroutineRunner.StopCoroutine(_coroutine);
 

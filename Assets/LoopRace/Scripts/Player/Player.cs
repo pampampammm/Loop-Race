@@ -50,10 +50,10 @@ public class Player
             CalculateGarages();
         }
         
-        // if (_garagesIsEmpty) return;
-        //
-        // if (_readyToFromDelay == false)
-        //     return;
+        if (_garagesIsEmpty) return;
+        
+        if (_readyToFromDelay == false)
+            return;
         // if (_garagesStack.Count == 0)
         //     return;
         // if (!_garagesStack.Peek())

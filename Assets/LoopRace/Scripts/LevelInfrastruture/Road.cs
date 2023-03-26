@@ -23,10 +23,10 @@ public class Road : MonoBehaviour
     {
         if (_pathCreator == null) return;
 
-        var newPoint = _pathCreator.path.GetPointAtDistance(_spawnPoint);
-        var nextPoint = _pathCreator.path.GetPointAtDistance(_spawnPoint + 1);
-
-        Gizmos.DrawSphere(newPoint, 0.40f);
-        Gizmos.DrawSphere(nextPoint, 0.25f);
+        // var newPoint = _pathCreator.path.GetPointAtDistance(_spawnPoint);
+        // var nextPoint = _pathCreator.path.GetPointAtDistance(_spawnPoint + 1);
+        //
+        // Gizmos.DrawSphere(newPoint, 0.40f);
+        // Gizmos.DrawSphere(nextPoint, 0.25f);
     }
 }

@@ -34,8 +34,8 @@ public class LevelSwitcher
     public Level Switch(int levelIndex)
     {
         var level = BuildLevel(levelIndex, _transform);
-
         DisappearCurrentLevel();
+
         _currentPreFab = level;
         LevelCurrent = level.Get();
         
@@ -46,19 +46,16 @@ public class LevelSwitcher
     {
         if (_currentPreFab != null || LevelCurrent != null)
         {
+
             Object.Destroy(_currentPreFab.gameObject);
 
             var meshes = GameObject.FindGameObjectsWithTag(ROADMESH);
-            var cars = GameObject.FindGameObjectsWithTag(CAR);
+            
             foreach (var mesh in meshes)
             {
                 Object.Destroy(mesh);
             }
 
-            foreach (var car in cars)
-            {
-                Object.Destroy(car);
-            }
         }
     }
 

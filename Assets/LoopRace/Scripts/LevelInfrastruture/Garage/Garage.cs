@@ -17,26 +17,34 @@ public class Garage : MonoBehaviour
     private GarageState _garageState;
     private int _releasedCars;
     private List<Car> _cars;
+    public IReadOnlyList<Car> Cars => _cars;
 
     public GarageState State => _garageState;
     public int ReleasedCarsCount => _releasedCars;
     public int CarCount => _carCount;
     public event Action CarReleased;
     public bool CreateOnStart => _createOnStart;
+    
 
-    private void Awake()
+    private void Start()
     {
         _cars = new List<Car>();
         _releasedCars = 0;
 
         _garageState = _createOnStart ? GarageState.Empty : GarageState.ReadyToRelease;
 
-        _carFabric = new CarFabric(road.Path);
+        _carFabric = new CarFabric(road.Path, transform);
+        
+        CreateCarsOnStart();
     }
 
-    private void Start()
+    public void DestroyAllCars()
     {
-        CreateCarsOnStart();
+        foreach (var VARIABLE in _cars)
+        {
+            Debug.Log("car destroyde");
+            Destroy(VARIABLE);
+        }
     }
 
     public void ReleaseCar()
@@ -44,7 +52,7 @@ public class Garage : MonoBehaviour
         if (_garageState == GarageState.Empty)
             return;
 
-        if (_releasedCars > 0)
+        if (_releasedCars > 0)  
             _cars[_releasedCars].gameObject.SetActive(true);
 
         _cars[_releasedCars].SetMoving(true);
