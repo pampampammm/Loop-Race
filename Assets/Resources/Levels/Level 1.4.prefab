@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7029654024787959775
 Transform:
   m_ObjectHideFlags: 0
@@ -132,7 +132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7095036814079194499
 Transform:
   m_ObjectHideFlags: 0
@@ -380,7 +380,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5349597826093102519, guid: b34fdc2125f0fe542a60c6c7c87a7b6b, type: 3}
       propertyPath: _hasStopPoint
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6502573846116431726, guid: b34fdc2125f0fe542a60c6c7c87a7b6b, type: 3}
       propertyPath: m_Name
@@ -466,6 +466,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9191447708923058801, guid: b34fdc2125f0fe542a60c6c7c87a7b6b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b34fdc2125f0fe542a60c6c7c87a7b6b, type: 3}
 --- !u!114 &1598373840337614936 stripped
@@ -549,6 +553,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fd5dc22bee4838f419891b77719234ee, type: 3}
       propertyPath: m_Name
       value: lightColored
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd5dc22bee4838f419891b77719234ee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd5dc22bee4838f419891b77719234ee, type: 3}

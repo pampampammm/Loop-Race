@@ -277,6 +277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: road (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6725479724583917341, guid: b34fdc2125f0fe542a60c6c7c87a7b6b, type: 3}
+      propertyPath: editorData._bezierPath.space
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6875699212811054651, guid: b34fdc2125f0fe542a60c6c7c87a7b6b, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -472,6 +476,22 @@ PrefabInstance:
     - target: {fileID: 6502573846116431726, guid: b34fdc2125f0fe542a60c6c7c87a7b6b, type: 3}
       propertyPath: m_Name
       value: road
+      objectReference: {fileID: 0}
+    - target: {fileID: 6725479724583917341, guid: b34fdc2125f0fe542a60c6c7c87a7b6b, type: 3}
+      propertyPath: editorData._bezierPath.space
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6725479724583917341, guid: b34fdc2125f0fe542a60c6c7c87a7b6b, type: 3}
+      propertyPath: editorData._bezierPath.points.Array.data[0].y
+      value: -0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6725479724583917341, guid: b34fdc2125f0fe542a60c6c7c87a7b6b, type: 3}
+      propertyPath: editorData._bezierPath.points.Array.data[1].y
+      value: -0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6725479724583917341, guid: b34fdc2125f0fe542a60c6c7c87a7b6b, type: 3}
+      propertyPath: editorData._bezierPath.points.Array.data[5].y
+      value: -0.001
       objectReference: {fileID: 0}
     - target: {fileID: 6875699212811054651, guid: b34fdc2125f0fe542a60c6c7c87a7b6b, type: 3}
       propertyPath: m_RootOrder
