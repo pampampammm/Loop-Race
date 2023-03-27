@@ -102,7 +102,8 @@ public class Car : MonoBehaviour
 
     private void CheckCollisions()
     {
-        var results = Physics.OverlapSphere(transform.position, _colliderSize.x);
+        // var results = Physics.OverlapBox(transform.position, _colliderSize);
+        var results = Physics.OverlapBox(transform.position, _colliderSize);
 
         foreach (var collider in results)
         {
@@ -130,6 +131,7 @@ public class Car : MonoBehaviour
     private void OnDrawGizmos()
     {
         //Gizmos.DrawCube(transform.position, _colliderSize);
-        Gizmos.DrawWireSphere(transform.position, _colliderSize.x);
+        //Gizmos.DrawWireSphere(transform.position, _colliderSize.x);
+        Gizmos.DrawWireCube(transform.position, _colliderSize);
     }
 }

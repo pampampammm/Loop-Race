@@ -55,7 +55,7 @@ public class LoopRaceGame : Game
             }
         }
 
-        _currentLevelIndex = 1;
+        _currentLevelIndex = PlayerPrefs.GetInt("Level");
 
         var levelTransform = GameObject.FindGameObjectWithTag(LEVELTRANSFORM).transform;
         _levelSwitcher = new LevelSwitcher(levelDataList, levelTransform, _coroutineRunner, 1f);
