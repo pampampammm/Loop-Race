@@ -24,9 +24,9 @@ public class Player
         _readyToFromDelay = true;
     }
 
-    public void SwitchLevel(int index)
+    public bool SwitchLevel(int index)
     {
-        if (!_levelSwitcher.CanSwitch(index)) return;
+        if (!_levelSwitcher.CanSwitch(index)) return false;
 
         var level = _levelSwitcher.Switch(index);
 
@@ -40,6 +40,8 @@ public class Player
                 road.MeshCreator.PathUpdate();
             }
         }
+
+        return true;
     }
 
     public void TryReleaseCar(Garage garage)
@@ -112,7 +114,6 @@ public class Player
 
         if (freeGarages == 0)
         {
-            Debug.Log("garages left");
             EmptyGaragesLeft?.Invoke();
         }
     }
