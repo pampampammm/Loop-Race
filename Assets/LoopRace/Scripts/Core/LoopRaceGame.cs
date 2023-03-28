@@ -3,7 +3,6 @@ using System.Collections;
 using System.Threading.Tasks;
 using CartoonFX;
 using LoopRace.Scripts.Player;
-using SupersonicWisdomSDK;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,12 +20,11 @@ public class LoopRaceGame : Game
     private LevelSwitcher _levelSwitcher;
     private Coroutine _coroutine;
     private bool _gameIsEnd;
-    private int _pastLevelIndex;
 
     private const string LEVELTRANSFORM = "LevelTransform";
 
-    public LoopRaceGame(ICoroutineRunner coroutineRunner, MainUIView mainUIView, PlayerInput playerInput,
-        CFXR_Effect _cfxrEffectA)
+    public LoopRaceGame(SaveData saveData, ICoroutineRunner coroutineRunner, MainUIView mainUIView, PlayerInput playerInput, CFXR_Effect _cfxrEffectA) :
+        base(saveData)
     {
         _coroutineRunner = coroutineRunner;
         _mainUIView = mainUIView;
@@ -67,11 +65,10 @@ public class LoopRaceGame : Game
     {
         _player = new Player(_levelSwitcher, _mainUIView, _mainCamera);
         _player.SwitchLevel(_currentLevelIndex);
-        _pastLevelIndex = _currentLevelIndex;
         _mainUIView.SetLevel(_currentLevelIndex + 1);
 
         CarCrushObserver.SetEffect(_cfxrEffectA);
-
+        
         RegisterListeners();
     }
 
@@ -80,7 +77,7 @@ public class LoopRaceGame : Game
         _mainUIView.ResetButton.onClick.AddListener(Reset);
         _mainUIView.NextLevelButton.onClick.AddListener(TrySwitchLevelByPlayer);
         _mainUIView.TryAgainButton.onClick.AddListener(Reset);
-
+        
         _playerInput.GarageClicked += _player.TryReleaseCar;
         CarCrushObserver.CarSrushed += Lose;
 
@@ -92,7 +89,7 @@ public class LoopRaceGame : Game
         _mainUIView.ResetButton.onClick.RemoveListener(Reset);
         _mainUIView.NextLevelButton.onClick.RemoveListener(TrySwitchLevelByPlayer);
         _mainUIView.TryAgainButton.onClick.RemoveListener(TrySwitchLevelByPlayer);
-
+        
         _playerInput.GarageClicked -= _player.TryReleaseCar;
         CarCrushObserver.CarSrushed -= Lose;
 
@@ -101,11 +98,11 @@ public class LoopRaceGame : Game
 
     private void TrySwitchLevelByPlayer()
     {
-        _pastLevelIndex = _currentLevelIndex;
         _currentLevelIndex++;
-
+        
         if (_currentLevelIndex >= _levelSwitcher.Levels.Count)
         {
+            Debug.Log("again");
             _player.SwitchLevel(0);
             _currentLevelIndex = 0;
             PlayerPrefs.DeleteAll();
@@ -113,15 +110,12 @@ public class LoopRaceGame : Game
         else
         {
             _player.SwitchLevel(_currentLevelIndex);
-
-
-            ExecuteLevelStartIvent();
             PlayerPrefs.SetInt("Level", _currentLevelIndex);
             PlayerPrefs.Save();
         }
 
         _mainUIView.NextLevelScreen.SetActive(false);
-
+        
         _mainUIView.SetLevel(_currentLevelIndex + 1);
     }
 
@@ -129,12 +123,13 @@ public class LoopRaceGame : Game
     {
         if (_coroutine != null)
             _coroutineRunner.StopCoroutine(_coroutine);
-
+        
         _coroutine = _coroutineRunner.StartCoroutine(StartTimerToWin(12));
     }
 
     private IEnumerator StartTimerToWin(float seconds)
     {
+        Debug.Log("timer is start");
         _gameIsEnd = false;
 
         _mainUIView.StartTimer(seconds);
@@ -149,26 +144,22 @@ public class LoopRaceGame : Game
 
     private void Win()
     {
-        SupersonicWisdom.Api.NotifyLevelCompleted(_currentLevelIndex, null);
-
         _mainUIView.ShowCongradulationMenu();
         _mainUIView.StopTimer();
         if (_coroutine != null)
             _coroutineRunner.StopCoroutine(_coroutine);
-
+                
         _gameIsEnd = true;
         StopGame();
     }
 
     private void Lose()
     {
-        SupersonicWisdom.Api.NotifyLevelFailed(_currentLevelIndex, null);
-
         _gameIsEnd = false;
         _mainUIView.StopTimer();
         if (_coroutine != null)
             _coroutineRunner.StopCoroutine(_coroutine);
-
+        
         _mainUIView.LoseGameScreen.SetActive(false);
         _mainUIView.NextLevelScreen.SetActive(false);
 
@@ -178,9 +169,9 @@ public class LoopRaceGame : Game
     private void StopGame()
     {
         var cars = GameObject.FindGameObjectsWithTag("Car");
-
+        
         _mainUIView.StopTimer();
-
+        
         if (_coroutine != null)
             _coroutineRunner.StopCoroutine(_coroutine);
 
@@ -195,14 +186,6 @@ public class LoopRaceGame : Game
         _gameIsEnd = true;
         _mainUIView.LoseGameScreen.SetActive(false);
         _mainUIView.NextLevelScreen.SetActive(false);
-        
-        _mainUIView.Timer.Stop();
-        
         _player.SwitchLevel(_currentLevelIndex);
-    }
-
-    private void ExecuteLevelStartIvent()
-    {
-        SupersonicWisdom.Api.NotifyLevelStarted(_currentLevelIndex, null);
     }
 }

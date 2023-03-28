@@ -3,9 +3,12 @@ using UnityEngine;
 
 public abstract class Game 
 {
-    protected Game()
+    private readonly SaveData _saveData;
+
+    protected Game(SaveData saveData)
     {
-    } 
+        _saveData = saveData;
+    }
 
     public abstract Task Start();
 
