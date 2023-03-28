@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3a987fa3-ec2b-0599-942a-5c93516ee9d5}</ProjectGuid>
+    <ProjectGuid>{fe102f6a-9808-1c9c-9897-d62f3a6958cf}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -41,16 +41,137 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Folder Include="Assets\Plugins\Android" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\reporter\interactor\EventReportTask.java" />
      <Folder Include="Assets\Plugins" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\interactor\ConversionDataManager.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\repository\datasource" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\interactor\IConversionDataManager.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\ui" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local\storage\core\WisdomEventsStorage.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\res\xml\sw_network_security_config.xml" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local\mapper" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\StoredEvent.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\api\dto\WisdomConfigurationDto.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\dto" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\api\listener\IWisdomInitListener.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\session\interactor\ISessionManager.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\AndroidManifest.xml" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\network\listener" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local\storage\api\IWisdomStorage.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\interactor" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\mapper\ListStoredEventJsonMapper.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\interactor\IEventMetadataManager.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local\ConversionDataLocalApi.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\util" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local\EventMetadataLocalApi.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\watchdog\listener" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\repository\EventMetadataRepository.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\util\SwAndroidTaskWrapper.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\IEventMetadataRepository.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\network\listener\IWisdomResponseListener.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\util\SwCallback.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\watchdog\interactor\ApplicationLifecycleServiceRegistrar.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\watchdog\listener\IBackgroundWatchdogListener.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\repository\datasource\EventsLocalDataSource.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\reporter" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\network\core\WisdomNetworkDispatcher.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\network\request\WisdomRequestExecutorTask.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\res\raw" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\watchdog\interactor\IApplicationLifecycleService.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\events" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local\storage\api\ISwBaseColumns.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\network\api\IWisdomNetwork.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local\EventsLocalApi.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\network\request\WisdomRequest.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\session" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\network\api" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\reporter\interactor\IEventsReporter.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\IEventsRepository.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\session\ISessionListener.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\ui\BlockingFullScreenLoader.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local\storage\api\TemporaryEventsContract.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\repository\ConversionDataRepository.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\watchdog\BackgroundWatchdog.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\dto\Constants.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\IConversionDataRepository.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\network\utils\NetworkUtils.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\IEventsRemoteStorageListener.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\api" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\IdentifiersGetter.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\events\EventsQueue.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\reporter\interactor" />
+     <Folder Include="Assets\Plugins\Android" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\util\SwUtils.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\watchdog" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\res\xml" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local\storage\api\BackupEventsContract.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\repository\datasource\EventsRemoteDataSource.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\remote" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\network\utils" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\watchdog\ApplicationLifecycleService.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\mapper" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\watchdog\dto" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\watchdog\listener\IAppLifecycleListener.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local\mapper\StoredEventMapper.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\session\interactor" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\watchdog\interactor" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\repository" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\watchdog\dto\ActivityDto.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\api\IWisdomSDK.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\watchdog\ActivityDtoMapper.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\network\request" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\watchdog" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\res\raw\keep.xml" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\reporter\interactor\EventsReporter.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local\storage" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\api\listener\IWisdomSessionListener.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\api\dto" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\mapper\Mapper.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\remote\EventsRemoteApi.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\session\interactor\SessionManager.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\watchdog\interactor\BackgroundWatchdogRegistrar.java" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\api\WisdomSDK.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\api\listener" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\network\core" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\WisdomInitProvider.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\watchdog\dto\BundleDto.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\util\SdkLogger.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\watchdog\interactor\IBackgroundWatchdog.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local\storage\api\WisdomDbHelper.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\interactor\EventMetadataManager.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\watchdog\interactor\IWatchdog.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\domain\events\IEventsQueue.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\repository\datasource\EventMetadataLocalDataSource.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\repository\EventsRepository.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\api\WisdomSDKImpl.java" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\network\core\WisdomNetwork.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\network\request\Method.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\res" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\res\xml\sw_backup_rules.xml" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local\storage\core" />
+     <None Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\repository\datasource\ConversionDataLocalDataSource.java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\network" />
+     <Folder Include="Assets\Plugins\Android\SupersonicWisdom.androidlib\src\main\java\wisdom\library\data\framework\local\storage\api" />
      <Reference Include="UnityEngine">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     <HintPath>D:\2021.3.21f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>D:\2021.3.21f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     <HintPath>D:\2021.3.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
