@@ -12,7 +12,11 @@ public class Player
     private bool _readyToFromDelay;
     private bool _garagesIsEmpty;
 
+    public bool StopControl;
+
     public event Action EmptyGaragesLeft;
+    
+    
 
     public Player(LevelSwitcher levelSwitcher, MainUIView mainUIView, Camera mainCamera)
     {
@@ -21,12 +25,14 @@ public class Player
         _mainCamera = mainCamera;
         _garages = new List<Garage>();
 
+        StopControl = false;
+
         _readyToFromDelay = true;
     }
 
-    public void SwitchLevel(int index)
+    public bool SwitchLevel(int index)
     {
-        if (!_levelSwitcher.CanSwitch(index)) return;
+        if (!_levelSwitcher.CanSwitch(index)) return false;
 
         var level = _levelSwitcher.Switch(index);
 
@@ -40,10 +46,14 @@ public class Player
                 road.MeshCreator.PathUpdate();
             }
         }
+
+        return true;
     }
 
     public void TryReleaseCar(Garage garage)
     {
+        if(StopControl) return;
+        
         if (garage.State != GarageState.Empty)
         {
             garage.ReleaseCar();
@@ -112,7 +122,6 @@ public class Player
 
         if (freeGarages == 0)
         {
-            Debug.Log("garages left");
             EmptyGaragesLeft?.Invoke();
         }
     }

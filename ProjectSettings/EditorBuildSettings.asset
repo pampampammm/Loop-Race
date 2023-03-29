@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/LoopRace/Scenes/Main.unity
+    guid: a0ebcc5326bd75441843ced54f99f098
   m_configObjects: {}

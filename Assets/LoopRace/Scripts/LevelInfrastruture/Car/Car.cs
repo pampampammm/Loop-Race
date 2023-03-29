@@ -27,15 +27,14 @@ public class Car : MonoBehaviour
 
     public void Update()
     {
-        if(_hasStopPoint == false) return;
-        
-        if (Math.Abs(_arrivedDistance - _newPointToStop) < 0.1f)
-        {
-            Debug.Log("я вашла бля");
-            StartCoroutine(StartTimeCoroutine(2f));
-            _getReadyToFromOfPoint = false;
-            _newPointToStop += _roadLenght + _pointToStop;
-        }
+        // if(_hasStopPoint == false) return;
+        //
+        // if (Math.Abs(_arrivedDistance - _newPointToStop) < 0.1f)
+        // {
+        //     StartCoroutine(StartTimeCoroutine(2f));
+        //     _getReadyToFromOfPoint = false;
+        //     _newPointToStop += _roadLenght + _pointToStop;
+        // }
     }
 
     private void FixedUpdate()
