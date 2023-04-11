@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0127f983-3db9-7690-8e78-9ec3c16cfdb2}</ProjectGuid>
+    <ProjectGuid>{6ff7a3b0-e3d7-c44c-857a-6cb4d2b2d6f7}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -298,82 +298,82 @@
      <HintPath>D:\2021.3.21f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="XInputDotNetPure">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Windows\XInputDotNetPure.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Windows\XInputDotNetPure.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Facebook.Unity.Windows">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
      </Reference>
      <Reference Include="LibFBGManaged">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Windows\LibFBGManaged.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Windows\LibFBGManaged.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Google.JarResolver">
-     <HintPath>D:\My project\Assets\ExternalDependencyManager\Editor\1.2.166\Google.JarResolver.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\ExternalDependencyManager\Editor\1.2.166\Google.JarResolver.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Pdb">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
      </Reference>
      <Reference Include="Google.IOSResolver">
-     <HintPath>D:\My project\Assets\ExternalDependencyManager\Editor\1.2.166\Google.IOSResolver.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\ExternalDependencyManager\Editor\1.2.166\Google.IOSResolver.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.1\Runtime\Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.1\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Facebook.Unity.Settings">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Mdb">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Rocks">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
      </Reference>
      <Reference Include="Google.VersionHandler">
-     <HintPath>D:\My project\Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
      </Reference>
      <Reference Include="Google.VersionHandlerImpl">
-     <HintPath>D:\My project\Assets\ExternalDependencyManager\Editor\1.2.166\Google.VersionHandlerImpl.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\ExternalDependencyManager\Editor\1.2.166\Google.VersionHandlerImpl.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.TextureAssets">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
      </Reference>
      <Reference Include="Facebook.Unity.Editor">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Facebook.Unity.Android">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
      </Reference>
      <Reference Include="Facebook.Unity.Canvas">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
      </Reference>
      <Reference Include="Google.PackageManagerResolver">
-     <HintPath>D:\My project\Assets\ExternalDependencyManager\Editor\1.2.166\Google.PackageManagerResolver.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\ExternalDependencyManager\Editor\1.2.166\Google.PackageManagerResolver.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.YamlDotNet">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
      <Reference Include="Facebook.Unity">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>D:\2021.3.21f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -754,10 +754,10 @@
      <HintPath>D:\2021.3.21f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>D:\My project\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>D:\My project\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{e6bdc332-25e1-2831-82c1-25d0441455a3}</ProjectGuid>
+    <ProjectGuid>{df99ccae-f24e-745a-410b-5ed58a4d07cb}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -637,6 +637,7 @@
      <Folder Include="Assets\JMO Assets\Cartoon FX (legacy)\Materials\Water" />
      <Folder Include="Assets\JMO Assets\Cartoon FX Remaster\CFXR Prefabs\Impacts" />
      <Folder Include="Assets\Resources\GameAnalytics" />
+     <Folder Include="Assets\Scenes" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <Folder Include="Assets\SupersonicWisdom\Plugins\Core\iOS\SupersonicWisdom\data\framework\remote" />
      <Folder Include="Assets\TextMesh Pro\Examples &amp; Extras\Textures" />
@@ -934,43 +935,43 @@
      <HintPath>D:\2021.3.21f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="XInputDotNetPure">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Windows\XInputDotNetPure.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Windows\XInputDotNetPure.dll</HintPath>
      </Reference>
      <Reference Include="Facebook.Unity.Windows">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
      </Reference>
      <Reference Include="LibFBGManaged">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Windows\LibFBGManaged.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Windows\LibFBGManaged.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Pdb">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.1\Runtime\Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.1\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Facebook.Unity.Settings">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Mdb">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Cecil.Rocks">
-     <HintPath>D:\My project\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
      </Reference>
      <Reference Include="Facebook.Unity.Android">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
      </Reference>
      <Reference Include="Facebook.Unity.Canvas">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
      </Reference>
      <Reference Include="Facebook.Unity">
-     <HintPath>D:\My project\Assets\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Assets\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>D:\2021.3.21f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -1351,156 +1352,156 @@
      <HintPath>D:\2021.3.21f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="PPv2URPConverters">
-     <HintPath>D:\My project\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Searcher.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>D:\My project\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>D:\My project\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Core.Runtime">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ShaderGraph.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.RenderPipelines.Core.Editor">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>D:\My project\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>C:\Users\levas\OneDrive\Документы\GitHub\Loop-Race\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
-      <Project>{974e3f68-5be9-83ba-9167-01b8e7d98d8c}</Project>
+      <Project>{b6425694-61a6-85a2-a102-45df9447e963}</Project>
       <Name>ToonyColorsPro.Demo.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AppsFlyer.csproj">
-      <Project>{e763c039-2e0d-e229-2536-e2f703ee4594}</Project>
+      <Project>{a59c6786-ae83-afce-d182-3abc1867fc1a}</Project>
       <Name>AppsFlyer</Name>
     </ProjectReference>
     <ProjectReference Include="CFXREditor.csproj">
-      <Project>{ddb52eef-501d-8b06-c85e-5a2eb60fea54}</Project>
+      <Project>{e4508999-0318-8b2c-bebd-cfc5084283f5}</Project>
       <Name>CFXREditor</Name>
     </ProjectReference>
     <ProjectReference Include="KinoBloom.Runtime.csproj">
-      <Project>{0127f983-3db9-7690-8e78-9ec3c16cfdb2}</Project>
+      <Project>{6ff7a3b0-e3d7-c44c-857a-6cb4d2b2d6f7}</Project>
       <Name>KinoBloom.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="CFXRDemo.csproj">
-      <Project>{700f3f3e-2032-fbe9-d6ec-bdf61becc680}</Project>
+      <Project>{2173a60a-d940-f739-8c20-d0e3370daa0b}</Project>
       <Name>CFXRDemo</Name>
     </ProjectReference>
     <ProjectReference Include="AppsFlyer.Editor.csproj">
-      <Project>{ab3f8208-903d-72f0-18b9-f1924f62dcda}</Project>
+      <Project>{ba88e10c-7969-d208-8b0b-bfb900918edd}</Project>
       <Name>AppsFlyer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="GameAnalytics-CSharp.csproj">
-      <Project>{f4d8bb90-c964-69fa-34f8-3ad4a3467fab}</Project>
+      <Project>{9b0b039d-eeaf-f7ee-5d60-97595676d249}</Project>
       <Name>GameAnalytics-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="PathCreator.csproj">
-      <Project>{fd070e75-d3d2-a537-ac05-6168a92391fe}</Project>
+      <Project>{7e33c967-8f59-3709-c515-22e05e6e482a}</Project>
       <Name>PathCreator</Name>
     </ProjectReference>
     <ProjectReference Include="SupersonicWisdom.csproj">
-      <Project>{3238f058-3dbe-7737-ac66-cc32c72a8f7d}</Project>
+      <Project>{61acf0f6-5cfb-a2d2-4d6f-609da6cd2034}</Project>
       <Name>SupersonicWisdom</Name>
     </ProjectReference>
     <ProjectReference Include="PathCreatorEditor.csproj">
-      <Project>{9497a171-f203-fe5a-8818-6d2cbfafb66e}</Project>
+      <Project>{320ff741-0434-6119-6e85-d58b898416cf}</Project>
       <Name>PathCreatorEditor</Name>
     </ProjectReference>
     <ProjectReference Include="CFXR.WelcomeScreen.csproj">
-      <Project>{991329ed-5273-1120-e4fb-7d3873a7657d}</Project>
+      <Project>{86f9c8da-5954-f90e-fbcd-627e9719e24e}</Project>
       <Name>CFXR.WelcomeScreen</Name>
     </ProjectReference>
     <ProjectReference Include="SupersonicWisdom.Editor.csproj">
-      <Project>{cb15dc9d-1405-0ed5-5cc0-1e4d64a6de47}</Project>
+      <Project>{bb7857c2-1deb-4b00-376f-a13bc1ec8287}</Project>
       <Name>SupersonicWisdom.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="CFXRRuntime.csproj">
-      <Project>{d9bbcf15-cd7f-0aa6-5565-769f3bd8c869}</Project>
+      <Project>{c792973e-306d-c468-a592-b963d6787e00}</Project>
       <Name>CFXRRuntime</Name>
     </ProjectReference>
   </ItemGroup>

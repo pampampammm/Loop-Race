@@ -73,6 +73,9 @@ public class LoopRaceGame : Game
         CarCrushObserver.SetEffect(_cfxrEffectA);
 
         RegisterListeners();
+        SupersonicWisdom.Api.NotifyLevelStarted(_currentLevelIndex, null);
+        Debug.Log("level start");
+
     }
 
     private void RegisterListeners()
@@ -204,5 +207,6 @@ public class LoopRaceGame : Game
     private void ExecuteLevelStartIvent()
     {
         SupersonicWisdom.Api.NotifyLevelStarted(_currentLevelIndex, null);
+        Debug.Log("level start");
     }
 }

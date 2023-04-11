@@ -31,7 +31,7 @@ MonoBehaviour:
     name: AI Query Idle Gallery
   - games:
     - adMobId: 
-      bundleId: com.MockeryStudio.Build-a-Route
+      bundleId: com.MockeryStudio.BuildaRoute
       facebookAppId: 586271390120644
       gameAnalyticsKey: 1aa1c5601ca7e86a17b8f5169961650f
       gameAnalyticsSecret: 37771065380997841228aa95f666b621af39f3d6
@@ -39,9 +39,22 @@ MonoBehaviour:
       isAppKey: 
       os: android
       platform: google_play
-      storeId: 
+      storeId: com.MockeryStudio.BuildaRoute
     id: 36b41925-0cb1-46f1-b9e2-971195d59a26
     name: Build a Route
+  - games:
+    - adMobId: 
+      bundleId: com.MockeryStudio.FightCards
+      facebookAppId: 
+      gameAnalyticsKey: e709c840219437e314e699192603e904
+      gameAnalyticsSecret: e70e646ad6d0fcb1794b94aafb17e7af15fbe733
+      id: aa7ad0a1-a489-4e3c-8728-09a94f64da94
+      isAppKey: 
+      os: android
+      platform: google_play
+      storeId: 
+    id: bed18d0a-85e6-465c-b3af-eb654d38da90
+    name: Fight Cards
   - games:
     - adMobId: 
       bundleId: com.MockeryStudio.FlipperPush
